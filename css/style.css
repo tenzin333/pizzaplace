@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    font-family: "Poppins", Arial, sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+    
+}
+
+
+
+
+
+h1{
+    color: #9fe2d5;
+    position: absolute;
+    left:50%;
+    top:50%;
+    font-family: 'Pacifico', cursive;
+    transform: translate(-50%,-50%);
+    font-size: 7rem;
+    
+}
+
+
+h7{
+    
+    color: white;
+    font-size: 3rem;
+    font-family: 'Niconne', cursive;
+}
+
+
+
+
+nav{
+    
+    padding-bottom: 0px;
+   
+    background-color: black;
+    display:flex;
+       justify-content: space-evenly;
+
+       align-items: center;
+        
+
+}
+
+nav a{
+    color: white;
+}
+
+ nav ul{
+    position: relative;
+    left: 50px;
+
+      justify-content: space-evenly;
+   
+    color: white;
+    display: flex;
+
+    width: 70%;
+    height: 70px;
+     align-items: center;
+    
+
+}
+
+ nav .icon{
+     display: none;
+ }
+
+li{
+    list-style-type: none;
+}
+nav li a{
+    text-decoration: none;
+   
+
+}
+
+li:hover{
+       color: #7f8fa6;
+    cursor: pointer;
+
+}
+
+
+.parallax1, .parallax2{
+    position: relative;
+    /* The image used */
+    
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax1{
+      background-image: url("/images/pixel1.jpg");
+      height: 80%;
+  }
+
+  .parallax2{
+
+    background-image: url("/images/pixel2.jpg");
+  }
+
+  .About{
+      border-top: 5px solid black;
+      justify-content: center;
+      
+       text-align: center;
+     
+}
+
+  h2{
+      letter-spacing: 2px;
+      background-color: black;
+      color: white;
+      width: 20%;
+      margin: auto;
+      text-align: center;
+  }
+
+
+
+  h3{
+      padding-top: 50px;
+    letter-spacing: 3px;
+
+  }
+
+
+
+  .content-box{
+      width:50%;
+      margin:auto;
+  }
+ 
+
+  .content-box img{
+      width: 100%;
+      height: 400px;
+        margin-top: 40px;
+       
+    }
+
+    .content-box p{
+        margin-top: 20px ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        font-size:20px;
+        color: black;
+    
+    }
+
+
+    h4{
+        font-size: 2rem;
+        text-align: center;
+        background-color: black;
+        color: white;
+        width: 150px;
+        height: 50px;
+        margin: auto;
+    
+    }
+
+    .menu{
+      margin:100px 0px;
+      height:  70%;
+        display: grid;
+        
+       grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+
+
+
+      
+    }
+
+    .items{
+        margin-top: 5px;
+        display: flex;
+    
+    }
+
+    .items img{
+        width:40%;
+        height: 90%;
+
+    }
+
+
+ .food-details{
+     padding-left: 10px;
+
+ }
+
+ .food-details p{
+   
+        padding-top: 20px;
+        font-size: 1.4rem;
+ }
+
+ 
+
+ h5{
+     
+    font-size: 2rem;
+    letter-spacing: 2px; 
+
+ }
+
+
+ .food-details span{
+     padding: 5px;
+ }
+
+ .food-details button{
+     background-color: none;
+    border: 1px solid green;
+     font-size: 1rem;
+     padding: 5px;
+     letter-spacing: 2px;
+    outline: none;
+
+
+ }
+
+  
+footer{
+
+   margin-top: 10px;
+    background-color: black;
+    
+    height: 400px;
+}
+
+.grid-sections{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  justify-self: center;
+    color: white;
+    height: 70%;
+  margin:0px auto;
+  padding: 50px 0px;
+    width: 80%;
+    font-size: 20px;
+
+    
+  
+}
+
+.box1 ,.box2,.box3{
+    height:100%;
+   justify-self: center;
+    
+}
+
+.box-details{
+     position: relative;
+     top:10px;
+
+
+}
+
+
+
+h6{
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+.social-links{
+    margin:  auto;
+    justify-content: center;
+    width: 250px;
+    justify-content: space-evenly;
+    color: white;
+      
+}
+
+
+.social-links ul{
+    align-items: center;
+    
+    display: flex;
+    font-size: 2.4rem;
+    justify-content: space-between;
+}
+
+.social-links i{
+    color: white;    
+}
+
+.copyright{
+padding-top: 10px;
+text-align: center;
+    color: white;
+}
+
+
+.container{
+    display: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 999px ){
+
+
+
+
+
+
+    nav .icon{
+        display: block;
+     
+        
+    }
+
+   nav{
+        transition: all 2s;
+        padding: 0px 10px; 
+        
+
+   }
+
+
+   h2{
+       width: 50%;
+   }
+
+    nav ul{
+       
+        width: 80%;
+        padding: relative;
+        top:80px;
+        right: 100px;
+        padding-right:20px ;
+        margin-right: 10px;
+
+
+        display: block;
+      
+        overflow: visible;
+      
+    }
+
+    nav ul li{
+        transition: all 2s;
+        text-align: right;
+    }
+
+
+    .menu {
+        
+        
+       
+        display: grid;
+        
+        grid-template-columns: 1fr 1fr;
+      
+    }
+
+    .box1,.box2,.box3{
+        font-size:1rem;
+    }
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 825px){
+     
+
+
+  nav ul li{
+      
+      display: block;
+  }
+
+   nav .icon{
+       display: block;
+   }
+  
+
+
+li:hover{
+    
+    cursor: pointer;
+
+}
+h2{
+    width: 40%;
+}
+
+.menu {
+    padding: 100px 0px;
+    margin-bottom: 100px;
+    height: 100%;
+    display: grid;
+ 
+    grid-template-columns: 1fr 1fr  ;
+
+
+ 
+}
+
+
+.food-details {
+    padding-left: 10px;
+  
+
+}
+
+.food-details p{
+
+    font-size: 14px;
+
+}
+
+footer{
+    height: 300px;
+
+}
+
+h6{
+    font-size: 1.3rem;
+}
+
+.box1,.box2,.box3{
+    font-size: 0.7em;
+}
+
+
+
+.content-box img {
+    
+    height: 300px;
+
+}
+
+
+
+}
+
+
+@media screen and (max-width:630px){
+
+
+       .box1,.box2,.box3{
+           font-size: 0.8rem;
+       }
+
+
+}
+
+@media screen and (max-width:580px){
+
+    h2{
+        font-size:30px;
+    }
+
+
+     h6{
+         font-size: 1rem;
+     }
+
+     .content-box img {
+        width: 100%;
+        height: 250px;
+       
+    }
+
+
+
+}
+
+@media screen and (max-width: 550px){
+    .menu{
+
+        grid-template-columns: 1fr;
+        overflow: hidden;
+        overflow-y: scroll;
+
+    }
+
+
+
+    footer{
+        height: 500px;
+    }
+
+
+    .grid-sections{
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+}
